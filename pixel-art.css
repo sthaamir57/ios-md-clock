@@ -1,0 +1,375 @@
+:root {
+    --unit : 2.5vw;
+    --unit-icon : 2.24vw;
+
+    --digit-color : #eaeaea;
+
+    --icon-heart-color-white : #ffffff;
+    --icon-heart-color-lighter : #ffd2dc;
+    --icon-heart-color-light : #fe8fa7;
+    --icon-heart-color-dark : #eb3159;
+    --icon-heart-color-darker : #c5193e;
+    --icon-heart-color-black : #a60c28;
+
+    --icon-cute-face-color-0 : #f7e9b1;
+    --icon-cute-face-color-1 : #eb9e72;
+    --icon-cute-face-color-2 : #ae6438;
+    --icon-cute-face-color-3 : #b1f6f7;
+    --icon-cute-face-color-4 : #ff6c6c;
+    --icon-cute-face-color-5 : #efe3c7;
+
+    --digit-0 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-1 :
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-2 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-3 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-4 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-5 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-6 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-7 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-8 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --digit-9 :
+    calc(var(--unit) * 0) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 1) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 3) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 4) var(--digit-color),
+    calc(var(--unit) * 0) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color),
+    calc(var(--unit) * 2) calc(var(--unit) * 5) var(--digit-color);
+
+    --colon :
+    calc(var(--unit) * 1) calc(var(--unit) * 2) var(--digit-color),
+    calc(var(--unit) * 1) calc(var(--unit) * 5) var(--digit-color);
+
+    
+    
+
+    --icon-heart:
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 2) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 2) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 2) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 2) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 2) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 2) var(--icon-heart-color-dark),
+
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 3) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 3) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 3) var(--icon-heart-color-white),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 3) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 3) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 3) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 3) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 3) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 3) var(--icon-heart-color-black),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 4) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 4) var(--icon-heart-color-white),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 4) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 4) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 4) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 4) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 4) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 4) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 4) var(--icon-heart-color-black),
+
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 5) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 5) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 5) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 5) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 5) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 5) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 5) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 5) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 5) var(--icon-heart-color-black),
+
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 6) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 6) var(--icon-heart-color-lighter),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 6) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 6) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 6) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 6) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 6) var(--icon-heart-color-black),
+
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 7) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 7) var(--icon-heart-color-light),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 7) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 7) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 7) var(--icon-heart-color-black),
+
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 8) var(--icon-heart-color-dark),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 8) var(--icon-heart-color-darker),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 8) var(--icon-heart-color-black),
+
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 9) var(--icon-heart-color-black);
+
+    --icon-cute-face: 
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-4),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-5),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-5),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-5),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-5),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2);
+
+    --icon-cute-face-v2:   
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 1) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 2) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-1),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 3) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 4) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 5) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-4),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-3),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 6) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 7) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 0) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-0),
+    calc(var(--unit-icon) * 8) calc(var(--unit-icon) * 8) var(--icon-cute-face-color-2),
+    
+    calc(var(--unit-icon) * 1) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 2) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 3) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 4) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 5) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 6) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2),
+    calc(var(--unit-icon) * 7) calc(var(--unit-icon) * 9) var(--icon-cute-face-color-2);
+}
